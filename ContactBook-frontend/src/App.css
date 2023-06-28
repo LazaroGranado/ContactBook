@@ -1,0 +1,691 @@
+.linkInLogin {
+  cursor: pointer;
+  color: rgba(151, 149, 147, 0.7);
+}
+
+.linkInLogin:hover {
+  color: rgba(206, 204, 202, 0.9);
+}
+
+.modalClose {
+  position: absolute;
+  top: 10.8px;
+  right: 10.8px;
+  cursor: pointer;
+  width: 1.83rem;
+}
+
+.modalClose:hover {
+  fill: rgb(144, 143, 143);
+}
+
+.MuiPopover-paper {
+  background-color: #313131 !important;
+}
+
+.filepond--root {
+  cursor: pointer !important;
+  background-color: rgb(35, 35, 35) !important;
+  border-radius: 10px !important;
+}
+
+.filepond--wrapper {
+  cursor: pointer !important;
+}
+
+.filepond--panel-root {
+  cursor: pointer !important;
+  max-height: 100% !important;
+  border-radius: 15px !important;
+
+  background-color: rgb(35, 35, 35) !important;
+}
+
+.createAndEditPage .browseButton {
+  cursor: pointer !important;
+  color: rgb(239, 239, 239) !important;
+  border-radius: 15px;
+  font-weight: bold !important;
+}
+
+.createAndEditPage .browseButton:hover {
+  cursor: pointer !important;
+  color: rgb(241, 241, 241) !important;
+  background-color: #85858508 !important;
+  border-radius: 15px;
+}
+
+.createAndEditPage .filepond--panel[data-scalable="true"] {
+  background-color: rgb(35, 35, 35) !important;
+}
+
+.filepond--drop-label label {
+  cursor: pointer !important;
+  color: rgb(239, 239, 239);
+  height: 70px !important;
+}
+
+.filepond--drop-label {
+  cursor: pointer !important;
+  border-radius: 15px;
+  height: 70px !important;
+  padding-top: 0rem !important;
+}
+
+@media (max-width: 768px) {
+  .filepondHeight {
+    height: 6.78rem !important;
+    margin-bottom: 20px !important;
+  }
+
+  .filepond--drop-label {
+    padding-top: 18px !important;
+  }
+
+  .browseButton {
+    margin-bottom: 5.3px !important;
+  }
+
+  .browseButton:hover {
+    margin-bottom: 5.3px !important;
+  }
+}
+
+.modal-content {
+  background-color: #424242;
+}
+
+.scrollableCategories {
+  overflow: auto;
+  max-height: 8rem;
+  direction: ltr;
+}
+
+.scrollableSearchItems {
+  overflow: auto;
+  max-height: 9.7rem;
+  direction: ltr;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #81ecec !important;
+  border: 2px solid #00cec9 !important;
+}
+
+input[type="file"]::file-selector-button {
+  border: 1px solid rgb(128, 121, 111);
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  transition: 1s;
+  background-color: rgb(53, 54, 55);
+  color: rgb(189, 186, 181);
+}
+
+.logoutButton:hover {
+  color: rgba(206, 204, 202, 0.9) !important;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #81ecec !important;
+  border: 2px solid #00cec9 !important;
+}
+
+input[type="file"]::-ms-browse:hover {
+  background-color: #81ecec !important;
+  border: 2px solid #00cec9 !important;
+}
+
+.contactCreateContainerDiv {
+  border-color: #313131;
+  border-width: 0.07rem;
+  border-style: solid;
+  border-radius: 9px;
+  padding: 1rem 3rem 0rem;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.625rem 1.25rem;
+  width: 100%;
+}
+
+.contactDetailsContainerDiv {
+  border-color: #313131;
+  border-width: 0.07rem;
+  border-style: solid;
+  border-radius: 9px;
+  padding: 2rem 3rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.625rem 1.25rem;
+  max-width: 33rem;
+  min-width: 25rem;
+}
+
+.loginContainerDiv {
+  border-color: #313131;
+  border-width: 0.07rem;
+  border-style: solid;
+  border-radius: 9px;
+  padding: 2rem 3rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.625rem 1.25rem;
+
+  width: 100%;
+}
+
+.categoriesContainerDiv {
+  border-color: #313131;
+  border-width: 0.07rem;
+  border-style: solid;
+  border-radius: 9px;
+  padding: 2rem 3rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.625rem 1.25rem;
+
+  width: 100% !important;
+}
+
+body {
+  color: rgb(168, 164, 158);
+  background-color: rgb(66, 68, 70);
+}
+
+.btn-dark {
+  background-color: rgb(53, 54, 55);
+  border-color: rgb(128, 121, 111);
+}
+
+.btn-dark:hover {
+  color: rgb(201, 199, 197);
+  background-color: rgb(55, 56, 57);
+  border-color: rgb(129, 123, 113);
+}
+
+.btn-primary:hover {
+  color: rgb(201, 199, 197);
+  background-color: rgb(55, 56, 57);
+  border-color: rgb(129, 123, 113);
+}
+
+.btn-primary {
+  background-color: rgb(53, 54, 55);
+  border-color: rgb(128, 121, 111);
+}
+
+a:hover {
+  color: rgba(206, 204, 202, 0.9);
+}
+
+a {
+  color: rgba(151, 149, 147, 0.7);
+}
+
+.bg-light {
+  background-color: rgb(71, 73, 74) !important;
+}
+
+.card {
+  background-color: rgb(66, 68, 70);
+  border-color: rgba(137, 129, 118, 0.13);
+}
+
+.btn {
+  color: rgb(189, 186, 181);
+}
+
+.btn:hover {
+  color: rgba(151, 149, 147, 0.7);
+}
+
+.form-control {
+  color: rgb(189, 186, 181);
+  background-color: rgb(63, 66, 67);
+  border-color: rgb(77, 81, 83);
+}
+
+.form-control:valid {
+  color: rgb(189, 186, 181);
+  background-color: rgb(63, 66, 67);
+  border-color: rgb(77, 81, 83);
+}
+
+.form-control:focus,
+.form-control:valid {
+  color: rgb(189, 186, 181);
+  background-color: rgb(63, 66, 67);
+  border-color: rgb(77, 81, 83);
+}
+
+.form-select {
+  color: rgb(189, 186, 181);
+  background-color: rgb(50, 51, 52);
+  border-color: rgb(77, 81, 83);
+}
+
+.list-group-item {
+  color: rgb(192, 189, 186);
+  text-decoration-color: currentcolor;
+  background-color: rgb(81, 85, 87);
+  border-color: rgba(137, 129, 118, 0.13);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(206, 204, 202, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(151, 149, 147, 0.7);
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: rgba(151, 149, 147, 0.7);
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(206, 204, 202, 0.9);
+}
+
+.table {
+  color: rgb(189, 186, 181);
+}
+
+.text-muted {
+  color: rgb(150, 144, 135) !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: rgba(206, 204, 202, 0.9);
+}
+
+.nav-link:focus,
+.nav-link {
+  color: rgba(151, 149, 147, 0.7);
+}
+
+.searchList {
+  position: absolute;
+  width: 100%;
+}
+
+.container1 {
+  position: relative;
+}
+
+#nav li:hover a {
+  color: rgba(201, 199, 197, 0.9);
+}
+
+.moveHamburgerToRight {
+  max-width: 2000px;
+}
+
+.float {
+  position: relative;
+  float: right;
+}
+
+.pointer-link {
+  cursor: pointer;
+  color: rgba(201, 199, 197, 0.7);
+}
+
+.css:hover {
+  color: rgba(201, 199, 197, 0.7) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 880px) {
+  .margin {
+    margin-left: 7rem !important;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 880px) {
+  .margin {
+    margin-left: 2rem !important;
+  }
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  border-color: #6f6b66;
+  background-image: none;
+  box-shadow: none !important;
+}
+
+.form-select.is-valid,
+.was-validated .form-select:valid {
+  border-color: #6f6b66;
+  background-image: none !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.width {
+  width: 100% !important;
+}
+
+.ap-ul {
+  font-size: 0.8rem;
+  padding-left: 0.77rem;
+  color: #6a7075;
+}
+
+.ul-no-bullet-point {
+  list-style-type: none;
+}
+
+.card {
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 10.99rem;
+}
+
+.min-height {
+  min-height: 55px;
+}
+
+.col {
+  height: 80%;
+}
+
+@media (max-width: 574px) {
+  .imageCardDiv {
+    width: 100%;
+
+    max-height: 12.5rem;
+    margin-bottom: 0px;
+  }
+
+  .imageCardBodyDiv {
+    max-height: 8rem;
+  }
+
+  .contactCardDiv {
+    text-align: center;
+
+    width: 100%;
+  }
+
+  .cardImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 17%;
+  }
+
+  .contactName {
+    margin-top: 0.4rem;
+    font-size: large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .imageCardDiv {
+    width: 44%;
+    float: left;
+    height: 100%;
+    min-height: 13.9rem;
+    max-height: 85.5%;
+  }
+
+  .contactCardDiv {
+    width: 56%;
+    float: right;
+    min-height: 13.9rem;
+    margin-top: 3rem;
+  }
+
+  .addressDiv {
+    margin-bottom: 0.5rem;
+    min-height: 3.1rem;
+  }
+
+  .setCardWidthDiv {
+    width: 32.25rem;
+  }
+
+  .cardImage {
+    width: 80%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contactName {
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchBar {
+    display: none !important;
+  }
+
+  .settingsButton {
+    padding-bottom: 0.4rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .contactsMainDiv {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .contactsMainDiv {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .contactsMainDiv {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .contactsMainDiv {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .contactsMainDiv {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .contactsMainDiv {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoutButton {
+    padding-top: 3.7px;
+  }
+
+  .categoriesButton {
+    padding-left: 0.9rem;
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 799px) {
+  .imageCardDiv {
+    width: 37%;
+    float: left;
+    height: 100%;
+    min-height: 88%;
+    max-height: 85%;
+  }
+
+  .imageCardBodyDiv {
+    padding: 0.3rem;
+  }
+
+  .contactCardDiv {
+    width: 60%;
+
+    min-height: 88%;
+    margin-right: 3%;
+    margin-top: 48px;
+  }
+
+  .cardImage {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contactName {
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: large;
+  }
+
+  .addressDiv {
+    margin-bottom: 0.5rem;
+    min-height: 3.1rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 880px) {
+  .imageCardDiv {
+    width: 10rem;
+    float: left;
+    height: 100%;
+    min-height: 88%;
+    max-height: 85%;
+  }
+
+  .contactCardDiv {
+    width: 55%;
+
+    min-height: 88%;
+    margin-right: 3%;
+    margin-top: 48px;
+  }
+
+  .cardImage {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contactName {
+    margin-top: 1.88rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: large;
+  }
+
+  .addressDiv {
+    margin-bottom: 0.5rem;
+    min-height: 3.1rem;
+  }
+}
+
+@media (min-width: 880px) and (max-width: 989px) {
+  .imageCardDiv {
+    width: 10rem;
+    float: left;
+    height: 100%;
+    min-height: 88%;
+    max-height: 85%;
+  }
+
+  .contactCardDiv {
+    width: 59%;
+
+    min-height: 88%;
+    margin-right: 3%;
+    margin-top: 48px;
+  }
+
+  .cardImage {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contactName {
+    margin-top: 1.7rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .addressDiv {
+    margin-bottom: 0.5rem;
+    min-height: 3.1rem;
+  }
+}
+
+@media (min-width: 990px) {
+  .contactDetailsContainerDiv {
+    width: 33rem;
+  }
+
+  .marginLeft {
+    margin-left: 1.5rem;
+  }
+
+  .imageCardDiv {
+    width: 44%;
+    float: left;
+    height: 100%;
+    min-height: 85.5%;
+    max-height: 7%;
+  }
+
+  .contactCardDiv {
+    margin-top: 48px;
+    margin-right: 3%;
+    min-height: 83%;
+  }
+
+  .cardImage {
+    max-width: 84%;
+  }
+
+  .contactName {
+    margin-top: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .addressDiv {
+    margin-bottom: 0.5rem;
+    min-height: 3.1rem;
+  }
+}
